@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+	<item
+		android:id="@+id/note_title"
+		android:actionLayout="@layout/note_form_form_activity_title"
+		android:showAsAction="always|collapseActionView"
+		android:title="@string/note_title"
+		/>
+
+	<item
+		android:id="@+id/note_color"
+		android:actionViewClass="android.widget.Spinner"
+		android:showAsAction="always"
+		android:title="@string/note_color"
+		/>
+
+	<item
+		android:id="@+id/note_save"
+		android:icon="@android:drawable/ic_menu_save"
+		android:showAsAction="always|withText"
+		android:title="@string/note_save"
+		/>
+</menu>

@@ -1,0 +1,12 @@
+<resources>
+	<array name="note_colors">
+		<item>@color/yellow</item>
+		<item>@color/cyan</item>
+		<item>@color/blue</item>
+		<item>@color/green</item>
+		<item>@color/pink</item>
+		<item>@color/red</item>
+		<item>@color/white</item>
+		<item>@color/gray</item>
+	</array>
+</resources>

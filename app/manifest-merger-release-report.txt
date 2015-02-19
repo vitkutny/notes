@@ -1,0 +1,97 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:4:2
+	package
+		ADDED from AndroidManifest.xml:3:2
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionCode
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+application
+ADDED from AndroidManifest.xml:7:2
+MERGED from com.android.support:support-v13:21.0.0:16:5
+MERGED from com.android.support:support-v4:21.0.0:16:5
+	android:label
+		ADDED from AndroidManifest.xml:10:3
+	android:allowBackup
+		ADDED from AndroidManifest.xml:8:3
+	android:icon
+		ADDED from AndroidManifest.xml:9:3
+	android:theme
+		ADDED from AndroidManifest.xml:11:3
+activity#com.ytnuk.notes.note.list.ListActivity
+ADDED from AndroidManifest.xml:13:3
+	android:label
+		ADDED from AndroidManifest.xml:16:4
+	android:icon
+		ADDED from AndroidManifest.xml:15:4
+	android:name
+		ADDED from AndroidManifest.xml:14:4
+	android:launchMode
+		ADDED from AndroidManifest.xml:17:4
+intent-filter#android.intent.action.MAIN+android.intent.action.SEARCH+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:19:4
+action#android.intent.action.SEARCH
+ADDED from AndroidManifest.xml:20:5
+	android:name
+		ADDED from AndroidManifest.xml:20:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:21:5
+	android:name
+		ADDED from AndroidManifest.xml:21:13
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:23:5
+	android:name
+		ADDED from AndroidManifest.xml:23:15
+meta-data#android.app.searchable
+ADDED from AndroidManifest.xml:25:4
+	android:resource
+		ADDED from AndroidManifest.xml:27:5
+	android:name
+		ADDED from AndroidManifest.xml:26:5
+activity#com.ytnuk.notes.note.view.ViewActivity
+ADDED from AndroidManifest.xml:30:3
+	android:label
+		ADDED from AndroidManifest.xml:33:4
+	android:icon
+		ADDED from AndroidManifest.xml:32:4
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:34:4
+	android:name
+		ADDED from AndroidManifest.xml:31:4
+activity#com.ytnuk.notes.note.form.AddActivity
+ADDED from AndroidManifest.xml:36:3
+	android:label
+		ADDED from AndroidManifest.xml:39:4
+	android:icon
+		ADDED from AndroidManifest.xml:38:4
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:40:4
+	android:name
+		ADDED from AndroidManifest.xml:37:4
+activity#com.ytnuk.notes.note.form.EditActivity
+ADDED from AndroidManifest.xml:42:3
+	android:label
+		ADDED from AndroidManifest.xml:45:4
+	android:icon
+		ADDED from AndroidManifest.xml:44:4
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:46:4
+	android:name
+		ADDED from AndroidManifest.xml:43:4
+uses-sdk
+INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
+MERGED from com.android.support:support-v13:21.0.0:15:5
+MERGED from com.android.support:support-v4:21.0.0:15:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0

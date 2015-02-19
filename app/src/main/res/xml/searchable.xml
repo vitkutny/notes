@@ -1,0 +1,5 @@
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+            android:hint="@string/note_search"
+            android:label="@string/notes"
+            android:voiceSearchMode="showVoiceSearchButton|launchRecognizer"
+	/>

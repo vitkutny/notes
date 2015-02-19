@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="note_edit">Upravit poznámku</string>
+	<string name="note_add">Přidat poznámku</string>
+	<string name="note_delete">Odstranit poznámku</string>
+	<string name="note_save">Uložit poznámku</string>
+	<string name="note_view">Zobrazit poznámku</string>
+	<string name="note_saved">Poznámka uložena</string>
+	<string name="note_deleted">Poznámka byla odstraněna</string>
+	<string name="note_share">Sdílet poznámku</string>
+	<string name="note_search">Vyhledat poznámku</string>
+	<string name="note_form_note_fragment_text_required">Je vyžadován text poznámky</string>
+	<string name="notes">Poznámky</string>
+	<string name="note_list_empty">Žádná poznámka.</string>
+	<string name="note">Poznámka</string>
+	<string name="note_title">Titulek poznámky</string>
+	<string name="note_color">Barva poznámky</string>
+	<string name="note_changed">Poznámka změněna</string>
+	<string name="discard_changes">Zahodit změny?</string>
+	<string name="discard">Zahodit</string>
+	<string name="note_delete_confirm">Potvrdit odstranění poznámky</string>
+	<string name="note_delete_confirm_message">Opravdu chcete odstranit tuto poznámku?</string>
+</resources>

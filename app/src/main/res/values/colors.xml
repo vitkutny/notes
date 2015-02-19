@@ -1,0 +1,11 @@
+<resources>
+	<color name="cyan">#88FFFF</color>
+	<color name="pink">#FF88FF</color>
+	<color name="green">#88FF88</color>
+	<color name="yellow">#FFFF88</color>
+	<color name="red">#FF8888</color>
+	<color name="blue">#8888FF</color>
+	<color name="gray">#888888</color>
+	<color name="white">#FFFFFF</color>
+	<color name="black">#000000</color>
+</resources>

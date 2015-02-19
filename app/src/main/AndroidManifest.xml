@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	package="com.ytnuk.notes"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+
+	<application
+		android:allowBackup="true"
+		android:icon="@android:drawable/ic_menu_agenda"
+		android:label="@string/notes"
+		android:theme="@style/Notes.Theme"
+		>
+		<activity
+			android:name=".note.list.ListActivity"
+			android:icon="@android:drawable/ic_menu_agenda"
+			android:label="@string/notes"
+			android:launchMode="singleTask"
+			>
+			<intent-filter>
+				<action android:name="android.intent.action.SEARCH"/>
+				<action android:name="android.intent.action.MAIN"/>
+
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+			<meta-data
+				android:name="android.app.searchable"
+				android:resource="@xml/searchable"
+				/>
+		</activity>
+		<activity
+			android:name=".note.view.ViewActivity"
+			android:icon="@android:drawable/ic_menu_view"
+			android:label="@string/note_view"
+			android:parentActivityName=".note.list.ListActivity"
+			>
+
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value=".note.list.ListActivity"
+				/>
+		</activity>
+		<activity
+			android:name=".note.form.AddActivity"
+			android:icon="@android:drawable/ic_menu_add"
+			android:label="@string/note_add"
+			android:parentActivityName=".note.list.ListActivity"
+			>
+
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value=".note.list.ListActivity"
+				/>
+
+			<intent-filter>
+				<action android:name="android.intent.action.SEND"/>
+				<category android:name="android.intent.category.DEFAULT"/>
+
+				<data android:mimeType="text/plain"/>
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".note.form.EditActivity"
+			android:icon="@android:drawable/ic_menu_edit"
+			android:label="@string/note_edit"
+			android:parentActivityName=".note.view.ViewActivity"
+			>
+
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value=".note.view.ViewActivity"
+				/>
+		</activity>
+	</application>
+
+</manifest>

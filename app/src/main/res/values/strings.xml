@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="note">Note</string>
+	<string name="notes">Notes</string>
+	<string name="note_color">Note color</string>
+	<string name="note_title">Note title</string>
+	<string name="note_view">View note</string>
+	<string name="note_add">Add note</string>
+	<string name="note_edit">Edit note</string>
+	<string name="note_save">Save note</string>
+	<string name="note_saved">Note saved</string>
+	<string name="note_delete">Delete note</string>
+	<string name="note_deleted">Note deleted</string>
+	<string name="note_delete_confirm">Note delete confirm</string>
+	<string name="note_delete_confirm_message">Are you sure you want delete this note?</string>
+	<string name="note_share">Share note</string>
+	<string name="note_search">Search note</string>
+	<string name="note_form_note_fragment_text_required">Note text is required</string>
+	<string name="note_list_empty">"There's no note available."</string>
+	<string name="note_changed">Note changed</string>
+	<string name="discard_changes">Discard changes?</string>
+	<string name="discard">Discard</string>
+
+</resources>

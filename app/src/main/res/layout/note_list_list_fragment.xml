@@ -1,0 +1,11 @@
+<RelativeLayout
+	android:id="@+id/note_list_list_fragment"
+	style="@style/Notes"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+
+	<GridView
+		android:id="@+id/note_list_list_fragment_list"
+		style="@style/Notes.Grid"
+		/>
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<resources>
+
+	<style name="Notes">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+	</style>
+
+	<style name="Notes.Theme"
+	       parent="android:Theme.DeviceDefault.Light">
+	</style>
+
+	<style name="Notes.Title"
+	       parent="android:TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:ellipsize">end</item>
+	</style>
+
+	<style name="Notes.NoteTextView"
+	       parent="android:TextAppearance.DeviceDefault.Widget.TextView">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:ellipsize">end</item>
+		<item name="android:lineSpacingExtra">@dimen/margin</item>
+		<item name="android:autoLink">all</item>
+	</style>
+
+	<style name="Notes.NoteEditText"
+	       parent="Notes.NoteTextView">
+		<item name="android:gravity">top</item>
+		<item name="android:inputType">
+			textAutoCorrect|textAutoComplete|textMultiLine
+		</item>
+	</style>
+
+	<style name="Notes.Grid">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:numColumns">auto_fit</item>
+		<item name="android:columnWidth">150dp</item>
+		<item name="android:verticalSpacing">@dimen/margin</item>
+		<item name="android:horizontalSpacing">@dimen/margin</item>
+		<item name="android:scrollingCache">false</item>
+	</style>
+
+	<style name="Notes.ScrollView">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:fillViewport">true</item>
+	</style>
+
+	<style name="Notes.NoteContainer">
+		<item name="android:padding">@dimen/padding</item>
+	</style>
+</resources>

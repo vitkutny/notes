@@ -1,0 +1,24 @@
+<ScrollView
+	android:id="@+id/note_form_form_activity"
+	style="@style/Notes.ScrollView"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+
+	<LinearLayout
+		style="@style/Notes.NoteContainer"
+		android:orientation="vertical"
+		>
+
+		<com.ytnuk.notes.note.NoteEditText
+			android:id="@+id/note_form_note_fragment_text"
+			style="@style/Notes.NoteEditText"
+			/>
+
+		<Button
+			style="@style/Notes"
+			android:layout_height="wrap_content"
+			android:text="Přidat úkol"
+			/>
+	</LinearLayout>
+
+</ScrollView>
